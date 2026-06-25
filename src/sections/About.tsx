@@ -41,7 +41,7 @@ export default function About() {
           <div className="relative order-1 lg:order-2">
             <div className="absolute -inset-4 border-2 border-teal-800/10 transform translate-x-4 -translate-y-4 rounded-xl"></div>
             <img 
-              src="/about.jpg" 
+              src={`${import.meta.env.BASE_URL}about.jpg`} 
               alt="Pest control technician inspecting a home" 
               className="relative w-full h-[600px] object-cover shadow-2xl rounded-xl"
             />
